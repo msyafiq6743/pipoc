@@ -11,9 +11,8 @@
     <title>Pipoc 2021</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/customCss3.css"> -->
     <link rel="stylesheet" href="./assets/css/fontawesome-5.14.0/css/all.css">
-    <link type="text/css" rel="stylesheet" href="./assets/css/customCss7.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/customCss.css">
 
 </head>
 <body>

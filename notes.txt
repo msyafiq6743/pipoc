@@ -3,9 +3,9 @@ dbName -- pipoc
 
 table -- user
  + id
- + username
- + password
- + role
+ + Username
+ + Password
+ + Role
 
 table -- visitor21
  + id

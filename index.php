@@ -1,5 +1,5 @@
 <?php
-    require "header.php"
+    require "../pipoc/external/header.php"
 ?>
 
 <main>
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <h1 class="headerText">
-                    MPOB - International Palm Oil Congress And Exhibition test github
+                    MPOB - International Palm Oil Congress And Exhibition
                 </h1>
             </div>
         </div>
@@ -72,5 +72,5 @@
 </main>
 
 <?php
-    require "footer.php"
+    require "../pipoc/external/footer.php"
 ?>
