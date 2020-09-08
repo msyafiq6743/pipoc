@@ -1,0 +1,100 @@
+.customFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.headerText {
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.customLogo {
+    width: 320px;
+    height: 320px;
+}
+
+.space {
+    padding-top: 25px;
+}
+
+.space2 {
+    padding-top: 35px;
+}
+
+.footer {
+    position: fixed;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 0;
+    height: 55px;
+    background: #008000;
+    font-size: 20px;
+}
+
+.footer h5 {
+    margin-top: 14px;
+}
+
+.custFooterFont {
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #00a531;
+    border-radius: 10px;
+}
+
+.navbar .navbar-brand {
+    color: #000000;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-text {
+    color: #000000;
+}
+
+.navbar .navbar-text a {
+    color: #ffffff;
+}
+
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #00a531;
+}
+
+.navbar .navbar-toggler {
+    border-color: #000000;
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+    background-color: #FFFFFF;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    color: #00a531;
+}
