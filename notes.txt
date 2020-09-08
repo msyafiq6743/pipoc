@@ -1,0 +1,18 @@
+
+dbName -- pipoc
+
+table -- user
+ + id
+ + Username
+ + Password
+ + Role
+
+table -- visitor21
+ + id
+ + BarCode
+ + RegDate
+ + Fname
+ + InSector
+ + Country
+ + Email
+ + Role
