@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/pipoc/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/pipoc/assets/css/fontawesome-5.14.0/css/all.css">
-    <link type="text/css" rel="stylesheet" href="/pipoc/assets/css/customCss.css">
+    <link type="text/css" rel="stylesheet" href="/pipoc/assets/css/customCss2.css">
 
 </head>
 <body>
