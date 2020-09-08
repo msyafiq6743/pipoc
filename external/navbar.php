@@ -1,8 +1,8 @@
 
 <?php
-	// if ($_SESSION['role'] == "admin") {
+	if ($_SESSION['role'] == "admin") {
 	?>
-		<!-- <div class="adminNavbar">
+		<div class="adminNavbar">
 			<nav class="navbar navbar-expand-lg" id="myNavbar">		
 				<a href="#" class="navbar-brand font-weight-bold">PIPOC 2021</a>
 				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">		
@@ -17,10 +17,10 @@
 							<a href="./registration.php" class="nav-link">Registration</a>
 						</li>
 						<li class="nav-item">
-							<a href="./userRec.php" class="nav-link">User</a>
+							<a href="./user.php" class="nav-link">User</a>
 						</li>
 						<li class="nav-item">
-							<a href="./visitorRec.php" class="nav-link">Record</a>
+							<a href="./record.php" class="nav-link">Record</a>
 						</li>
 					</ul>
 				
@@ -34,16 +34,16 @@
 							<a href="#" class="nav-link disabled" aria-disabled="true"><?=$_SESSION['username'];?> - ADMIN </a>
 						</li>
 						<li class="nav-item">
-							<a href="./include/userLogout.php" class="nav-link">Log out</a>
+							<a href="../include/logout.php" class="nav-link">Log out</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-		</div> -->
+		</div>
 
 <?php
-	// }
-	// else if ($_SESSION['role'] == "user") {
+	}
+	else if ($_SESSION['role'] == "user") {
 		?>
 
 		<div class="userNavbar">
@@ -74,11 +74,11 @@
 					</form>
 
 					<ul class="navbar-nav ml-auto">		<!-- mr-auto force item align to left-->
-						<!-- <li class="nav-item">
-							<a href="#" class="nav-link disabled" aria-disabled="true"><?=$_SESSION['username'];?></a>
-						</li> -->
 						<li class="nav-item">
-							<a href="./include/userLogout.php" class="nav-link">Log out</a>
+							<a href="#" class="nav-link disabled" aria-disabled="true"><?=$_SESSION['username'];?></a>
+						</li>
+						<li class="nav-item">
+							<a href="../include/logout.php" class="nav-link">Log out</a>
 						</li>
 					</ul>
 				</div>
@@ -86,10 +86,10 @@
 		</div>
 
 <?php
-	// }
-	// else {
-	// 	echo "<script type='text/javascript'>alert('Unknown Role !!!');window.location.href='../index.php';</script>";
-    //         exit();
-	// }
+	}
+	else {
+		echo "<script type='text/javascript'>alert('Unknown Role !!!');window.location.href='../index.php';</script>";
+            exit();
+	}
 ?>
 

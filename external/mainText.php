@@ -1,9 +1,9 @@
 
 <?php
-	// if ($_SESSION['role'] == "admin") {
+	if ($_SESSION['role'] == "admin") {
     ?>
     
-	 <!-- <div class="container customFont space">
+	 <div class="container customFont space">
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <h1 class="headerText">
@@ -11,11 +11,11 @@
                 </h1>
             </div>
         </div>
-    </div> -->
+    </div>
 
 <?php
-	// }
-	// else if ($_SESSION['role'] == "user") {
+	}
+	else if ($_SESSION['role'] == "user") {
 		?>
 
             <div class="container customFont space">
@@ -29,10 +29,10 @@
             </div>
 
 <?php
-	// }
-	// else {
-	// 	echo "<script type='text/javascript'>alert('Unknown Role !!!');window.location.href='../index.php';</script>";
-    //         exit();
-	// }
+	}
+	else {
+		echo "<script type='text/javascript'>alert('Unknown Role !!!');window.location.href='../index.php';</script>";
+            exit();
+	}
 ?>
 

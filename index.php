@@ -22,7 +22,7 @@
             <div class="col d-flex justify-content-center">
                 <div class="card bg-transparent border-white">
                     <div class="card-body">
-                        <form method="POST" action="./include/userLogin.php">
+                        <form method="POST" action="./include/login.php">
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
@@ -48,7 +48,7 @@
                                                     <i class="fa fa-unlock-alt"></i>
                                                 </div>
                                             </div>
-                                            <input type="password" class="form-control" placeholder="Password" name="password" autofocus>
+                                            <input type="password" class="form-control" placeholder="Password" name="password">
                                         </div>
                                         
                                     </div>

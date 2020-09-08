@@ -7,7 +7,7 @@
     <?php
         require "../external/mainText.php";
         require "../external/navbar.php";
-        // require "initialReg.php";
+        require "../external/initialReg.php";
     ?>
 
 </main>
