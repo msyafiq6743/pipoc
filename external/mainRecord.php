@@ -45,7 +45,7 @@
                 <td align="center">
                     <?php echo $row['RegDate'];?>
                 </td>
-                <td align="center">
+                <td>
                     <?php echo $row['Fname'];?>
                 </td>
                 <td align="center">
@@ -54,7 +54,7 @@
                 <td align="center">
                     <?php echo $row['Country'];?>
                 </td>
-                <td align="center">
+                <td>
                     <?php echo $row['Email'];?>
                 </td>
                 <td align="center">
