@@ -33,7 +33,7 @@
                                         <label>
                                             Registration Date :
                                         </label>
-                                        <input type="text" class="form-control" name="regDate" value="<?php echo date("Y/m/d");?>">
+                                        <input type="text" class="form-control" name="regDate" readonly value="<?php echo date("Y/m/d");?>">
                                     </div>
                                 </div>
                             </div>

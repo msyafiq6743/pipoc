@@ -58,12 +58,19 @@
                     <?php echo $row['Email'];?>
                 </td>
                 <td align="center">
-                    <button class="btn btn-warning btn-sm" type="button">Edit</button>
-                    <button class="btn btn-danger btn-sm" type="button">Delete</button>
+                    <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit<?php echo $row['id']; ?>">
+                        Edit
+                    </button>
+
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete<?php echo $row['id']; ?>">
+                        Del
+                    </button>
                 </td>
             </tbody>
 
             <?php
+                require "../external/editRecord.php";
+                require "../external/deleteRecord.php";
                     }
                 }
                 else {
