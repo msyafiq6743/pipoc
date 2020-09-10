@@ -1,6 +1,8 @@
 
 <?php
 	if ($_SESSION['role'] == "admin") {
+        require "../external/statbtn.php";
+        require "../external/statTable.php";
 	?>
         
         

@@ -7,6 +7,8 @@
     <?php
         require "../external/mainText.php";
         require "../external/navbar.php";
+        require "../external/statbtn.php";
+        require "../external/statTable.php";
     ?>
 
 </main>
