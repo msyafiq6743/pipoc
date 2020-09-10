@@ -2,6 +2,8 @@
     require "../external/header.php";
 ?>
 
+<!-- admin home at external/initial.php -->
+
 <main>
 
     <?php
