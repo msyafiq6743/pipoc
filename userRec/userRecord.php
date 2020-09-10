@@ -52,7 +52,7 @@
             <?php
                 require "../userRec/regUser.php";
                 require "../userRec/editUser.php";
-                require "../external/deleteRecord.php";
+                require "../userRec/deleteUser.php";
                     }
                 }
                 else {

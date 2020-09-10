@@ -15,7 +15,7 @@
                     <div class="col d-flex justify-content-center">
                         <div class="card bg-transparent border-white custCard">
                             <div class="card-body">
-                                <form method="POST" action="../include/regUserSub.php">
+                                <form method="POST" action="../include/editUserSub.php">
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col">
@@ -33,7 +33,18 @@
                                             <label>
                                                 Password :
                                             </label>
-                                                <input type="text" class="form-control" name="password" value="<?php echo $row['Password']; ?>">
+                                                <input type="password" class="form-control" name="password" value="<?php echo $row['Password']; ?>">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col">
+                                            <label>
+                                               Conform Password :
+                                            </label>
+                                                <input type="password" class="form-control" name="password2" value="<?php echo $row['Password']; ?>">
                                             </div>
                                         </div>
                                     </div>
@@ -54,16 +65,17 @@
                                         </div>
                                     </div>
 
+                                    <input type="hidden" class="form-control" name="id" value="<?php echo $row['id']; ?>" >
+
                                     <div>
-                                        <button type="submit" class="btn btn-success btn-block" name="regUser">Edit Record</button>
+                                        <button type="submit" class="btn btn-success btn-block" name="editUser">Edit Record</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>   
         </div>
     </div>
 </div>
