@@ -27,6 +27,32 @@
                     </div>
                 </div>
 
+                <!-- <div class="btn-group" role="group">
+                    <button class="btn btn-success dropdown-toggle" type="button" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Excel 2
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="filter">
+                        <form method="POST" action="../excel/mainExcel.php">
+                            <button class="dropdown-item" type="submit" name="all">
+                                All Days 2
+                            </button>
+                        </form>
+
+                        <form method="POST" action="../excel/dayExcel.php">
+                            <button class="dropdown-item" type="submit" name="day_1">
+                                Days 1 2
+                            </button>
+                            <button class="dropdown-item" type="submit" name="day_2">
+                                Days 2 2
+                            </button>
+                            <button class="dropdown-item" type="submit" name="day_3">
+                                Days 3 2
+                            </button>
+                        </form>   
+                    </div>
+                </div> -->
+
                 <div class="btn-group" role="group">
                     <button class="btn btn-success dropdown-toggle" type="button" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         PDF
