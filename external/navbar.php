@@ -24,9 +24,9 @@
 						</li>
 					</ul>
 				
-					<form class="form-inline" method="POST">
-						<input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search"> 
-						<button class="btn btn-light my-sm-0" type="submit" name="search">Search</button>
+					<form class="form-inline" method="POST" action="../view/search.php">
+						<input class="form-control mr-sm-3" type="search" placeholder="Search" name="search"> 
+						<button class="btn btn-light my-sm-0" type="submit" name="searchBtn">Search</button>
 					</form>
 
 					<ul class="navbar-nav ml-auto">	
@@ -68,7 +68,7 @@
 						</li>
 					</ul>
 				
-					<form class="form-inline" method="POST">
+					<form class="form-inline" method="POST" action="../view/search.php">
 						<input class="form-control mr-sm-3" type="search" placeholder="Search" name="search"> 
 						<button class="btn btn-light my-sm-0" type="submit" name="searchBtn">Search</button>
 					</form>
